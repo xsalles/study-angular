@@ -1,5 +1,16 @@
+@use 'fonts';
+
+// Colors
+
 $primary-color: #3461FF;
 $hover-color: #254EDA;
 $off-white: #FAFAFA;
 $black: #000;
 $white: #fff;
+
+// Fonts
+
+$font-bold: 'SansBold', sans-serif;
+$font-semibold: 'SansSemiBold', sans-serif;
+$font-medium: 'SansMedium', sans-serif;
+$font-regular: 'SansRegular', sans-serif;
