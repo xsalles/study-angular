@@ -1,0 +1,29 @@
+@use 'variables';
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: variables.$white;
+
+  img {
+    width: 144px;
+    height: 32px;
+  }
+
+  .navLinks {
+    display: flex;
+    gap: 32px;
+
+    a {
+      color: variables.$black;
+      font-weight: 500;
+      font-size: 16px;      
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
