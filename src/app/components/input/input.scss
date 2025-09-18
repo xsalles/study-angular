@@ -1,0 +1,15 @@
+@use 'variables';
+
+input {
+    padding: 16px;
+    border-radius: 36px;
+    border: 1px solid rgba(170, 170, 170, 0.2);
+    background-color: variables.$off-white;
+    width: 330px;
+    
+
+    &::placeholder {
+        color: variables.$gray;
+        font-family: variables.$font-medium;
+    }
+}

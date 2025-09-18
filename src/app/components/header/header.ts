@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { Button } from "../button/button";
+import { ButtonComponent } from "../button/button";
 
 @Component({
   selector: 'component-header',
   standalone: true,
-  imports: [Button],
+  imports: [ButtonComponent],
   templateUrl: './header.html',
   styleUrl: './header.scss'
 })

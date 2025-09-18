@@ -6,6 +6,6 @@ import { Component, Input } from '@angular/core';
   templateUrl: './button.html',
   styleUrl: './button.scss',
 })
-export class Button {
+export class ButtonComponent {
   @Input() text: string = '';
 }
