@@ -12,3 +12,7 @@ button, a {
     text-decoration: none;
     font-family: variables.$font-medium
 }
+
+input:focus, button:focus, a:focus {
+    outline: none;
+}

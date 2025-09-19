@@ -1,15 +1,16 @@
 @use 'variables';
 
 input {
-    padding: 16px;
-    border-radius: 36px;
-    border: 1px solid rgba(170, 170, 170, 0.2);
-    background-color: variables.$off-white;
-    width: 330px;
-    
+  padding: 16px;
+  border-radius: 36px;
+  border: 1px solid rgba(170, 170, 170, 0.2);
+  background-color: variables.$off-white;
+  width: 330px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: variables.$font-medium;
 
-    &::placeholder {
-        color: variables.$gray;
-        font-family: variables.$font-medium;
-    }
+  &::placeholder {
+    color: variables.$gray;
+    font-family: variables.$font-medium;
+  }
 }

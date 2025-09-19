@@ -1,0 +1,15 @@
+<section>
+  <h3>Companies We Work With</h3>
+
+  <div class="rowImages">
+    @for (row of companiesRowOne; track row) {
+    <img [src]="row.logo" [alt]="'Company with the name ' + row.name" />
+    }
+  </div>
+
+  <div class="rowImages">
+    @for (row of companiesRowTwo; track row) {
+    <img [src]="row.logo" [alt]="'Company with the name ' + row.name" />
+    }
+  </div>
+</section>
