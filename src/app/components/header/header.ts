@@ -7,6 +7,6 @@ import { ButtonComponent } from "../button/button";
   templateUrl: './header.html',
   styleUrl: './header.scss'
 })
-export class Header {
+export class HeaderComponent {
 
 }

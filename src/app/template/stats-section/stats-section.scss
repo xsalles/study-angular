@@ -1,0 +1,67 @@
+@use 'variables';
+
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 72px;
+}
+
+.statsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.rowStatsOne {
+  display: flex;
+  gap: 89px;
+  min-width: 489px;
+  max-width: 489px;
+}
+
+.rowStatsTwo {
+  display: flex;
+  gap: 149px;
+  min-width: 489px;
+  max-width: 489px;
+}
+
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+  max-width: 576px;
+
+  h2 {
+    font-size: 64px;
+    font-family: variables.$font-medium;
+  }
+
+  p {
+    font-size: 18px;
+    font-family: variables.$font-medium;
+    color: variables.$gray;
+  }
+}
+
+.learnMoreWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    margin-top: 42px;
+
+    p {
+        font-size: 16px;
+        font-family: variables.$font-medium;
+        color: variables.$primary-color;
+
+        &:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+@use 'variables';
+
+div {
+    text-align: left;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        font-size: 64px;
+        font-family: variables.$font-semibold;
+        color: variables.$black;
+    }
+
+    p {
+        font-size: 16px;
+        font-family: variables.$font-medium;
+        color: variables.$gray;
+    }
+}

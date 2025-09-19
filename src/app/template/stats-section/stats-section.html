@@ -1,0 +1,28 @@
+<section>
+  <div class="statsWrapper">
+    <div class="rowStatsOne">
+      @for (row of statsRowOne; track row) {
+      <component-stats-card [stat]="row.stat" [description]="row.description" />
+      }
+    </div>
+    <div class="rowStatsTwo">
+      @for (row of statsRowTwo; track row) {
+      <component-stats-card [stat]="row.stat" [description]="row.description" />
+      }
+    </div>
+  </div>
+
+  <div class="contentWrapper">
+    <h2>Commitments</h2>
+
+    <p>
+      We are committed to working with you collaboratively to understand your goals and create a
+      strategy that will achieve them.
+    </p>
+
+    <div class="learnMoreWrapper">
+        <p>Learn More</p>
+        <img src="../../../assets/icons/Arrow.svg" alt="Seta para aprender mais" />
+    </div>
+  </div>
+</section>

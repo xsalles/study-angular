@@ -1,12 +1,13 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { Header } from "./components/header/header";
+import { HeaderComponent } from "./components/header/header";
 import { HeroSection } from "./template/hero-section/hero-section";
 import { PartnershipsSection } from "./template/partnerships-section/partnerships-section";
+import { StatsSection } from "./template/stats-section/stats-section";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Header, HeroSection, PartnershipsSection],
+  imports: [RouterOutlet, HeroSection, PartnershipsSection, HeaderComponent, StatsSection],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
