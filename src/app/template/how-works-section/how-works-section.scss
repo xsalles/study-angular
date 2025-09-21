@@ -1,0 +1,41 @@
+@use 'variables';
+
+section {
+  display: flex;
+  flex-direction: row;
+  gap: 111px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.textSection {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 28px;
+
+  h2 {
+    font-size: 64px;
+    font-family: variables.$font-medium;
+    color: variables.$black;
+  }
+
+  p {
+    font-size: 20px;
+    font-family: variables.$font-medium;
+    color: variables.$gray;
+    max-width: 540px;
+  }
+
+  img {
+    width: 480px;
+    height: 400px;
+  }
+}
+
+.featuresSection {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+}

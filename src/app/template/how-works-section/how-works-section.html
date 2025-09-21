@@ -1,0 +1,18 @@
+<section>
+  <div class="textSection">
+    <h2>How It Works</h2>
+    <p>
+      We believe that the best way to create successful marketing campaigns is to work closely with
+      our clients to understand their goals and challenges.
+    </p>
+    <img
+      src="../../../assets/illustrations/illustrationHowWorks.png"
+      alt="Ilustração para a seção de como funciona com uma imagem representando um 'tutorial'"
+    />
+  </div>
+  <div class="featuresSection">
+    @for (feature of features; track $index) {
+    <component-feature-card [feature]="feature" />
+    }
+  </div>
+</section>
