@@ -1,0 +1,12 @@
+<section>
+  <div class="top-content">
+    <h3>Our Work</h3>
+    <p>A glimpse of our portfolio</p>
+  </div>
+  <div class="company-cards">
+    @for (company of companyCards; track $index) {
+    <component-company-card [company]="company" />
+    }
+  </div>
+  <component-button text="See more" />
+</section>
