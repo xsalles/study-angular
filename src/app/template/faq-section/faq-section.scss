@@ -1,0 +1,46 @@
+@use 'variables';
+
+section {
+  display: flex;
+  gap: 120px;
+  width: 1200px;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  h3 {
+    font-family: variables.$font-medium;
+    font-size: 40px;
+    color: variables.$black;
+  }
+
+  p {
+    font-family: variables.$font-regular;
+    font-size: 16px;
+    color: variables.$gray;
+  }
+}
+
+.content-actions {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.underlined-text {
+  font-family: variables.$font-semibold;
+  font-size: 20px;
+  color: variables.$primary-color;
+  text-decoration: underline;
+  cursor: pointer;
+}

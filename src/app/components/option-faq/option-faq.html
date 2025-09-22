@@ -1,0 +1,18 @@
+<div class="option-faq-wrapper" (click)="toggle(optionFaq)">
+  <div class="option-faq-header">
+    <p class="option-faq-question">
+      {{ optionFaq.question }}
+    </p>
+    <p class="option-faq-icon">
+      {{ optionFaq.isOpen ? '-' : '+' }}
+    </p>
+  </div>
+
+  <div class="option-faq-answer">
+    @if (optionFaq.isOpen && optionFaq.answer != null) {
+    <p>
+      {{ optionFaq.answer }}
+    </p>
+    }
+  </div>
+</div>

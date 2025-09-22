@@ -1,0 +1,9 @@
+@use 'variables';
+
+div {
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid variables.$gray;
+}
