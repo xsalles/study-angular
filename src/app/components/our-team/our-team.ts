@@ -36,7 +36,7 @@ export class OurTeam {
         img: '../../../assets/illustrations/second-man.png'
       },
       {
-        img: '../../../assets/illustrations/first-man.png'
+        img: '../../../assets/illustrations/third-man.png'
       }
     ]
   }

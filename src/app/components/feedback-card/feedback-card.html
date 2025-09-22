@@ -1,0 +1,12 @@
+<div class="feedback-wrapper">
+  <div class="feedback-header">
+    <img [src]="feedback.img" [alt]="'A photo from' + feedback.name" />
+    <div class="feedback-info">
+      <h5 #title> {{ feedback.name }} </h5>
+      <p #subtitle> {{ feedback.position }} </p>
+    </div>
+  </div>
+  <p>
+    {{ feedback.feedback }}
+  </p>
+</div>

@@ -1,0 +1,14 @@
+@use 'variables';
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 68px;
+    width: 1200px;
+
+    h2 {
+        font-family: variables.$font-medium;
+        font-size: 64px;
+        color: variables.$black;
+    }
+}

@@ -1,0 +1,5 @@
+<p-carousel [value]="feedbacks" [numVisible]="2.2" [numScroll]="1" [circular]="false">
+    <ng-template let-feedback pTemplate="item">
+        <component-feedback-card [feedback]="feedback" />
+    </ng-template>
+</p-carousel>
