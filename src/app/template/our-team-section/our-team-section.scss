@@ -1,0 +1,32 @@
+@use 'variables';
+
+section {
+  display: flex;
+  width: 1200px;
+  gap: 100px;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: space-between;
+
+  .text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+
+    h3 {
+      font-size: 64px;
+      font-family: variables.$font-medium;
+      color: variables.$black;
+    }
+
+    p {
+      font-size: 16px;
+      font-family: variables.$font-regular;
+      color: variables.$gray;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+<div class="team-wrapper">
+  <div class="person-row">
+    @for (woman of ourTeam.womans; track $index) {
+    <img [src]="woman.img" alt="A picture of a woman from our team" />
+    }
+  </div>
+  <div class="person-row">
+    @for (man of ourTeam.mans; track $index) {
+    <img [src]="man.img" alt="A picture of a man from our team" />
+    }
+  </div>
+</div>
