@@ -1,0 +1,17 @@
+@use 'variables';
+
+button {
+    padding: 16px 48px;
+    background: variables.$white;
+    color: variables.$black;
+    font-size: 16px;
+    font-family: variables.$font-medium;
+    border-radius: 70px;
+    border: none;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background: variables.$black;
+        color: variables.$white;
+    }
+}

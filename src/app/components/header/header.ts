@@ -1,12 +1,10 @@
 import { Component } from '@angular/core';
-import { ButtonComponent } from "../button/button";
+import { PrimaryButton } from '../button/primary-button/primary-button';
 
 @Component({
   selector: 'component-header',
-  imports: [ButtonComponent],
+  imports: [ PrimaryButton],
   templateUrl: './header.html',
-  styleUrl: './header.scss'
+  styleUrl: './header.scss',
 })
-export class HeaderComponent {
-
-}
+export class HeaderComponent {}

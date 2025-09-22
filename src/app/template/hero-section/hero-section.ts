@@ -1,13 +1,11 @@
 import { Component } from '@angular/core';
-import { ButtonComponent } from "../../components/button/button";
-import { InputComponent } from "../../components/input/input";
+import { PrimaryButton } from '../../components/button/primary-button/primary-button';
+import { InputComponent } from '../../components/input/input';
 
 @Component({
   selector: 'hero-section',
-  imports: [ButtonComponent, InputComponent],
+  imports: [InputComponent, PrimaryButton],
   templateUrl: './hero-section.html',
-  styleUrl: './hero-section.scss'
+  styleUrl: './hero-section.scss',
 })
-export class HeroSection {
-
-}
+export class HeroSection {}
