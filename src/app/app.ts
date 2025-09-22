@@ -9,10 +9,11 @@ import { OurWorkSection } from "./template/our-work-section/our-work-section";
 import { FirstCtaSection } from "./template/first-cta-section/first-cta-section";
 import { OurTeamSection } from "./template/our-team-section/our-team-section";
 import { FeedbackSection } from "./template/feedback-section/feedback-section";
+import { SecondCtaSection } from "./template/second-cta-section/second-cta-section";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HeroSection, PartnershipsSection, HeaderComponent, StatsSection, HowWorksSection, OurWorkSection, FirstCtaSection, OurTeamSection, FeedbackSection],
+  imports: [RouterOutlet, HeroSection, PartnershipsSection, HeaderComponent, StatsSection, HowWorksSection, OurWorkSection, FirstCtaSection, OurTeamSection, FeedbackSection, SecondCtaSection],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
