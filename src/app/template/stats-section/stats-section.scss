@@ -49,20 +49,20 @@ section {
 }
 
 .learnMoreWrapper {
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
-    align-items: center;
-    margin-top: 42px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  margin-top: 42px;
 
-    p {
-        font-size: 16px;
-        font-family: variables.$font-medium;
-        color: variables.$primary-color;
+  p {
+    font-size: 16px;
+    font-family: variables.$font-medium;
+    color: variables.$primary-color;
 
-        &:hover {
-            text-decoration: underline;
-            cursor: pointer;
-        }
+    &:hover {
+      text-decoration: underline;
+      cursor: pointer;
     }
+  }
 }

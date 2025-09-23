@@ -1,28 +1,28 @@
 @use 'variables';
 
 section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 100px;   
-    width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  width: 1200px;
 
-    h3 {
-        font-size: 36px;
-        font-family: variables.$font-medium;
-        color: variables.$black;
-    }
+  h3 {
+    font-size: 36px;
+    font-family: variables.$font-medium;
+    color: variables.$black;
+  }
 }
 
 .rowImages {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
 
-    img {
-        width: 160px;
-        height: 50px;
-        object-fit: contain;
-    }
+  img {
+    width: 160px;
+    height: 50px;
+    object-fit: contain;
+  }
 }

@@ -1,0 +1,56 @@
+@use 'variables';
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: variables.$off-white;
+  align-items: center;
+  padding-block: 70px;
+  height: 330px;
+  width: 100%;
+  padding: 60px 40px;
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 180px;
+
+  .logo-embrace {
+    width: 100%;
+  }
+}
+
+.social-media-icons {
+  display: flex;
+  gap: 24px;
+  width: 100%;
+  justify-content: space-between;
+
+  img {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+.footer-nav {
+  display: flex;
+  gap: 75px;
+  width: fit-content;
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+
+    p {
+        font-size: 16px;
+        font-family: variables.$font-medium;
+        color: variables.$black;
+        cursor: pointer;
+    }
+  }
+}

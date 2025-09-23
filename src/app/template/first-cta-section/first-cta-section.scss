@@ -1,43 +1,42 @@
 @use 'variables';
 
 section {
-    display: flex;
-    flex-direction: column;
-    padding: 100px;
+  display: flex;
+  flex-direction: column;
 }
 
 .content-wrapper {
-    background-image: url('../../../assets/backgrounds/CTA-Banner.png');
-    background-size: cover;
-    background-position: center;
-    gap: 190px;
-    height: 370px;
-    border-radius: 32px;
-    padding-block: 100px;
-    padding-inline: 92px;
+  background-image: url('../../../assets/backgrounds/CTA-Banner.png');
+  background-size: cover;
+  background-position: center;
+  gap: 190px;
+  height: 370px;
+  border-radius: 32px;
+  padding-block: 100px;
+  padding-inline: 92px;
 
+  display: flex;
+
+  h2 {
+    font-size: 64px;
+    font-family: variables.$font-medium;
+    color: variables.$white;
+    text-align: center;
+  }
+
+  div {
     display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: fit-content;
+    max-width: 500px;
+    gap: 32px;
 
-    h2 {
-        font-size: 64px;
-        font-family: variables.$font-medium;
-        color: variables.$white;
-        text-align: center;
+    p {
+      font-size: 20px;
+      font-family: variables.$font-regular;
+      color: variables.$white;
+      margin-bottom: 24px;
     }
-
-    div {
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        height: fit-content;
-        max-width: 500px;
-        gap: 32px;
-
-        p {
-            font-size: 20px;
-            font-family: variables.$font-regular;
-            color: variables.$white;
-            margin-bottom: 24px;
-        }
-    }
+  }
 }

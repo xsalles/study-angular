@@ -11,10 +11,11 @@ import { OurTeamSection } from "./template/our-team-section/our-team-section";
 import { FeedbackSection } from "./template/feedback-section/feedback-section";
 import { SecondCtaSection } from "./template/second-cta-section/second-cta-section";
 import { FaqSection } from "./template/faq-section/faq-section";
+import { Footer } from "./components/footer/footer";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HeroSection, PartnershipsSection, HeaderComponent, StatsSection, HowWorksSection, OurWorkSection, FirstCtaSection, OurTeamSection, FeedbackSection, SecondCtaSection, FaqSection],
+  imports: [RouterOutlet, HeroSection, PartnershipsSection, HeaderComponent, StatsSection, HowWorksSection, OurWorkSection, FirstCtaSection, OurTeamSection, FeedbackSection, SecondCtaSection, FaqSection, Footer],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })

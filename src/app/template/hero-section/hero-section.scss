@@ -1,35 +1,35 @@
 @use 'variables';
 
 section {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 72px;
-    width: 1200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 72px;
+  width: 1200px;
 }
 
 .content {
-    display: flex;
-    flex-direction: column;
-    gap: 28px;
-    max-width: 518px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  max-width: 518px;
 
-    h1 {
-        font-size: 96px;
-        font-family: variables.$font-bold;
-        color: variables.$black;
-    }
+  h1 {
+    font-size: 96px;
+    font-family: variables.$font-bold;
+    color: variables.$black;
+  }
 
-    p {
-        font-size: 20px;
-        font-family: variables.$font-medium;
-        color: variables.$gray;
-    }
+  p {
+    font-size: 20px;
+    font-family: variables.$font-medium;
+    color: variables.$gray;
+  }
 }
 
 .content-actions {
-    display: flex;
-    flex-direction: row;
-    gap: 12px;
-    margin-top: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin-top: 16px;
 }
