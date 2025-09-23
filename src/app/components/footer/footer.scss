@@ -2,13 +2,21 @@
 
 footer {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   background-color: variables.$off-white;
   align-items: center;
-  padding-block: 70px;
+  width: 100%;
+  height: fit-content;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 60px 40px;
   height: 330px;
   width: 100%;
-  padding: 60px 40px;
 }
 
 .company-info {
@@ -47,10 +55,35 @@ footer {
     gap: 48px;
 
     p {
-        font-size: 16px;
-        font-family: variables.$font-medium;
-        color: variables.$black;
-        cursor: pointer;
+      font-size: 16px;
+      font-family: variables.$font-medium;
+      color: variables.$black;
+      cursor: pointer;
+    }
+  }
+}
+
+.footer-rights {
+  padding: 50px 40px;
+  display: flex;
+  justify-content: space-between;
+  background-color: variables.$black;
+  width: 100%;
+
+  p {
+    font-size: 14px;
+    font-family: variables.$font-regular;
+    color: variables.$white;
+  }
+
+  .policies {
+    display: flex;
+    gap: 48px;
+
+    p {
+      font-size: 14px;
+      font-family: variables.$font-regular;
+      color: variables.$white;
     }
   }
 }
